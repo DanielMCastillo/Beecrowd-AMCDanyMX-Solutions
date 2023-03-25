@@ -1,17 +1,13 @@
 x = int(input())
 y = int(input())
 
-# awsegurarnos del rango iniciando en x
+# verificar que x es menor pera rango 1
 if x > y:
     x, y = y, x
 
-#Inicializar suma
-suma = 0
+suma_de_impares = 0
+for numeros in range(x+1, y):
+    if numeros % 2 == 1:
+        suma_de_impares += numeros
 
-# Iterar en el rango
-#hacer la suma
-for i in range(x, y+1, 2):
-        suma += i
-
-
-print(suma)
+print(suma_de_impares)
