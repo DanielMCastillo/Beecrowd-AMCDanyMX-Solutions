@@ -1,2 +1,2 @@
-# URI-AMCDanyMX-Solutions
-URI- Online Judge solutions
+# Beecrowd -AMCDanyMX-Solutions
+Beecrowd platform solutions
